@@ -6,6 +6,10 @@ public class threadExample3 {
     threadExamplefromRunnable threadExample = new threadExamplefromRunnable();
     Thread thread = new Thread(threadExample);
     thread.start();
+    thread.start();
+
+
+
 
 
     }
